@@ -19,6 +19,7 @@ client.on('ready', () => {
         mongoUri: process.env['MONGOOSE_CONNECTION_STRING'],
         testServers: ['1019702847916494928']
     })
+    console.log('Bot should be online!')
 })
 
 client.login(process.env['DISCORD_API'])
